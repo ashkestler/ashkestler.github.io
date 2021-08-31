@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-family: 'Audiowide', 'Courier New', monospace;
   color: #7BC74D;
+  text-align: center;
 }
 
 h3 {
@@ -64,17 +65,15 @@ h4 {
   padding-left: 1em;
 }
 
+.mephoto {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 .about {
   padding-top: 5em;
   padding-left: 3em;
   padding-bottom: 5em;
-}
-
-.aboutline {
-  width: 100%;
-  border-bottom: 1px dotted #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
 }
 
 .la-angle-double-right {
@@ -82,7 +81,7 @@ h4 {
 }
 
 .paddedparagraph {
-  padding-top: 1.5em;
+  padding-top: 3em;
 }
 
 .img-thumbnail {
@@ -115,13 +114,18 @@ h4 {
 }
 
 .icons {
-  display: inline-block;
   text-align: center;
   margin-top: 1.8em;
 }
 
-.la-linkedin, .la-envelope-square {
-  padding: 0.5em;
+.la-envelope-square {
+  padding-right: 0.5em;
+  color: #393E46;
+  font-size: 4em;
+}
+
+.la-linkedin {
+  padding-left: 0.5em;
   color: #393E46;
   font-size: 4em;
 }
