@@ -18,14 +18,11 @@ h1 {
   padding-bottom: 0.8em;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Audiowide', 'Courier New', monospace;
   color: #7BC74D;
 }
 
-h3 {
-  font-family: 'Audiowide', 'Courier New', monospace;
-}
 
 h4 {
   font-family: 'Fira Code', monospace;
@@ -80,9 +77,8 @@ h4 {
   color: #7BC74D;
 }
 
-.aboutmeparagraph {
+.paddedparagraph {
   padding-top: 1.5em;
-  padding-bottom: 1.5em;
 }
 
 .img-thumbnail {
