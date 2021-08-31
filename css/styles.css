@@ -10,19 +10,14 @@ h1 {
   font-size: 6em;
 }
 
-/*.name {
-  padding-right:
-}*/
-.intro {
-  padding-top: 2.5em;
-  padding-bottom: 0.8em;
-}
-
-h2, h3 {
+h2 {
   font-family: 'Audiowide', 'Courier New', monospace;
   color: #7BC74D;
 }
 
+h3 {
+  font-family: 'Audiowide', 'Courier New', monospace;
+}
 
 h4 {
   font-family: 'Fira Code', monospace;
@@ -36,7 +31,16 @@ h4 {
   padding-bottom: 5em;
 }
 
+.intro {
+  padding-top: 8.5em;
+  padding-bottom: 0.8em;
+}
+
 /* Navbar Customization */
+.navbar-custom {
+  background-color: #222831;
+}
+
 .navbar-nav li a, .navbar-nav li a:visited {
   color: #EEEEEE;
   font-size: 1.1em;
@@ -113,7 +117,7 @@ h4 {
 .icons {
   display: inline-block;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.8em;
 }
 
 .la-linkedin, .la-envelope-square {
