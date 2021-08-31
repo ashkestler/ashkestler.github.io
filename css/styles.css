@@ -1,0 +1,136 @@
+body {
+  background-color: #EEEEEE;
+  font-family: 'Electrolize', Tahoma, sans-serif;
+  color: #393E46;
+}
+
+h1 {
+  font-family: 'Audiowide', 'Courier New', monospace;
+  color: #7BC74D;
+  font-size: 6em;
+}
+
+/*.name {
+  padding-right:
+}*/
+.intro {
+  padding-top: 2.5em;
+  padding-bottom: 0.8em;
+}
+
+h2 {
+  font-family: 'Audiowide', 'Courier New', monospace;
+  color: #7BC74D;
+}
+
+h3 {
+  font-family: 'Audiowide', 'Courier New', monospace;
+}
+
+h4 {
+  font-family: 'Fira Code', monospace;
+  color: #7BC74D;
+  display: inline;
+}
+
+#title, #projects {
+  background-color: #222831;
+  color: #EEEEEE;
+  padding-bottom: 5em;
+}
+
+/* Navbar Customization */
+.navbar-nav li a, .navbar-nav li a:visited {
+  color: #EEEEEE;
+  font-size: 1.1em;
+}
+
+.navbar-nav li a:hover {
+  color: #7BC74D;
+}
+
+/* Set the hamburger menu color */
+.custom-toggler {
+  border-style: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(123, 199, 77, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.intro-row {
+  padding-top: 5em;
+  padding-left: 1em;
+}
+
+.about {
+  padding-top: 5em;
+  padding-left: 3em;
+  padding-bottom: 5em;
+}
+
+.aboutline {
+  width: 100%;
+  border-bottom: 1px dotted #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.la-angle-double-right {
+  color: #7BC74D;
+}
+
+.aboutmeparagraph {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.img-thumbnail {
+  float: right;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  max-width: 50%;
+  max-height: 50%;
+  border-color: #7BC74D;
+  background-color: #7BC74D;
+}
+
+.card {
+  background-color: #393E46;
+  color: #EEEEEE;
+}
+
+.la-github {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #EEEEEE;
+  font-size: 4em;
+}
+
+.la-github:hover, .la-linkedin:hover, .la-envelope-square:hover {
+  color: #7BC74D;
+  font-size: 4em;
+}
+
+.icons {
+  display: inline-block;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.la-linkedin, .la-envelope-square {
+  padding: 0.5em;
+  color: #393E46;
+  font-size: 4em;
+}
+
+#footer {
+  background-color: #222831;
+  color: #EEEEEE;
+  font-size: 12px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  text-align: center;
+  padding: 0.3em;
+}
