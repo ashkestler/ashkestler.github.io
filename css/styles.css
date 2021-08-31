@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+.header {
+  font-size: 2.5em;
+}
+
 h3 {
   font-family: 'Audiowide', 'Courier New', monospace;
 }
@@ -65,9 +69,32 @@ h4 {
   padding-left: 1em;
 }
 
+/* xs */
 .mephoto {
-  max-width: 150px;
-  max-height: 150px;
+  float: none;
+  width: 100%;
+  height: auto;
+}
+
+/* sm */
+@media (min-width: 768px) {
+  .mephoto {
+    width: 50%;
+  }
+}
+
+/* md */
+@media (min-width: 992px) {
+  .mephoto {
+    width: 25%;
+  }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+  .mephoto {
+    width: 25%;
+  }
 }
 
 .about {
@@ -89,8 +116,6 @@ h4 {
   margin-top: 3em;
   margin-left: 3em;
   margin-bottom: 1em;
-  max-width: 50%;
-  max-height: 50%;
   border-color: #7BC74D;
   background-color: #7BC74D;
 }
