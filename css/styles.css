@@ -46,6 +46,14 @@ h4 {
   background-color: #222831;
 }
 
+.navbar-brand, .navbar-brand:visited {
+  color: #7BC74D;
+}
+
+.navbar-brand:hover {
+  color: #EEEEEE;
+}
+
 .navbar-nav li a, .navbar-nav li a:visited {
   color: #EEEEEE;
   font-size: 1.1em;
